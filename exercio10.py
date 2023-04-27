@@ -11,3 +11,7 @@ senha= input("Informe sua senha:")
 for x in range(2):
     if usuario == login[x] and senha == senhas[x]:
         print("Login efetuado com sucesso!")
+        break
+    else:
+        print("usuario não cadastrado ou senha errada.")
+        break
