@@ -1,11 +1,13 @@
 a= []
-m=[]
-for i in range(5):
-    a.append(int(input("Digite um número:")))
-x=int(input("Insira o número da soma:"))
+b=[]
+c=[]
+tam=int(input("Digite o tamanho do array:"))
+for i in range(tam):
+    a.append(int(input("Digite um valor para A:")))
+    b.append(int(input("Digite um valor para B:")))
 
-for y in range(5):
-    m.append(x+a[y])
+for y in range(tam):
+    c.append(a[y] + b[y])
 print(a)
-print(x)
-print(m)
+print(b)
+print(c)
